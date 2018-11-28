@@ -1,3 +1,26 @@
 #homepage-body{
   background-color: #f0f9ed;
 }
+
+#signature-organic-logo img {
+  height:15vh;
+}
+
+#homepage-hero{
+  width:auto;
+  height: 50vh;
+  background-image: url("https://imgur.com/hnVLj0T.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.homepage-customer-review{
+  border-left: 3px solid #BF8849;
+  text-align: center;
+}
+
+#review-section-title{
+  text-align: center;
+  font-style: italic;
+  vertical-align: middle;
+}
