@@ -1,7 +1,7 @@
 import React from 'react'
 
 const ReviewSection = () => (
-  <div className="is-row is-shadow-1">
+  <div className="is-row is-shadow-1" id="homepage-review-section">
     <h3 id="review-section-title" className="is-col is-23">What our customers have to say:</h3>
     <blockquote className="is-col is-23 homepage-customer-review">
       "They are super professional, offer timely delivery and their products are great. Kudos for doing such a great job!"
