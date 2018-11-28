@@ -22,16 +22,36 @@
 }
 
 #review-section-title{
+  transform: translate(0%,30%);
+}
+
+.section-headers{
   text-align: center;
   vertical-align: middle;
-  transform: translate(0%,30%);
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
+
 }
 
 #homepage-review-section{
   margin-left: 1rem;
   margin-right: 1rem;
+  margin-bottom: .5rem;
+}
+#homepage-company-description{
+  margin-top: .5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+#homepage-company-description h3{
+  margin-bottom: 0px;
+}
+#homepage-company-description p{
+  margin-top: 0px;
+}
+
+#homepage-description-content{
+  padding: 1rem;
 }
 
 #homepage-google-map{
