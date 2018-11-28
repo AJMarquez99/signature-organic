@@ -1,19 +1,23 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
-import Layout from '../components/layout'
-import Image from '../components/image'
+import Footer from "../components/footer.js"
+import Header from "../components/header.js"
+import ReviewSection from "../components/ReviewSection.js"
+
+import '../styles/masterstyles.scss'
 
 const IndexPage = () => (
-  <Layout>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
-      <Image />
+  <div id="homepage-body">
+    <div id="homepage-hero" className="is-row">
+      <Header></Header>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
+    <div id="homepage-company-description" className="is-col">
+      <p id="homepage-description-content">Founded in 2017, Signature Organic is a family run business focused on bringing you the best organic produce in the twin cities. We deliver free range poultry, fresh organic eggs, and vegetables and salads. Order now to get farm fresh produce at your doorstep!</p>
+    </div>
+    <ReviewSection></ReviewSection>
+    <Footer className="is-col">
+    </Footer>
+  </div>
 )
 
 export default IndexPage
