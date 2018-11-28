@@ -4,6 +4,8 @@
 
 #signature-organic-logo img {
   height:15vh;
+  margin-left: 0;
+  margin-bottom: 0;
 }
 
 #homepage-hero{
@@ -21,7 +23,13 @@
 
 #review-section-title{
   text-align: center;
-  font-style: italic;
   vertical-align: middle;
   transform: translate(0%,30%);
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+#homepage-review-section{
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
