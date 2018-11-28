@@ -33,3 +33,8 @@
   margin-left: 1rem;
   margin-right: 1rem;
 }
+
+#homepage-google-map{
+  height: 30vh;
+  width: 30vw;
+}
