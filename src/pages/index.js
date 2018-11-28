@@ -4,8 +4,7 @@ import Footer from "../components/footer.js"
 import Header from "../components/header.js"
 import ReviewSection from "../components/ReviewSection.js"
 
-import '../styles/index.css'
-import '../styles/kube.css'
+import '../styles/masterstyles.scss'
 
 const IndexPage = () => (
   <div id="homepage-body">
