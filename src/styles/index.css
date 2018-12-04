@@ -3,8 +3,9 @@
 }
 
 #signature-organic-logo img {
-  height:15vh;
-  margin-left: 0;
+  position: relative;
+  min-width: 15vh;
+  max-height: 15vh;
   margin-bottom: 0;
 }
 
@@ -22,14 +23,42 @@
 }
 
 #review-section-title{
+  transform: translate(0%,30%);
+}
+
+.section-headers{
   text-align: center;
   vertical-align: middle;
-  transform: translate(0%,30%);
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
+
 }
 
 #homepage-review-section{
   margin-left: 1rem;
   margin-right: 1rem;
+  margin-bottom: .5rem;
+  background-color: #fff6ed;
+}
+#homepage-company-description{
+  margin-top: -2.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  background-color: #fff6ed;
+}
+#homepage-company-description h3{
+  margin-bottom: 0px;
+  padding-top: 1rem;
+}
+#homepage-company-description p{
+  margin-top: 0px;
+}
+
+#homepage-description-content{
+  padding: 1rem;
+}
+
+#homepage-google-map{
+  height: 30vh;
+  width: 30vw;
 }

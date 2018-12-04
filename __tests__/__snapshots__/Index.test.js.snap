@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Index renders correctly 1`] = `
+exports[`Index Page The index page should render the exact same way every time 1`] = `
 <div
   id="homepage-body"
 >
