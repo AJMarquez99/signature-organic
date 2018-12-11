@@ -23,9 +23,29 @@ render(){
           padding: '1.45rem 1.0875rem'
         }}
         >
-        <h1 className ="is-col" style={{ margin: 0 }}>
-          Contact Us
-        </h1>
+        <div className ="is-col" >
+          <h1 style={{ margin: 0 }}>
+            Contact Us
+          </h1>
+          <div className="is-row contact-icons">
+            <i class="fas fa-envelope"></i>
+            <p>
+              email: signatureorganicfarm@gmail.com
+            </p>
+          </div>
+          <div className="is-row contact-icons">
+            <i class="fab fa-whatsapp"></i>
+            <p>
+              whatsapp: m.me/SignatureOrganicFarm
+            </p>
+          </div>
+          <div className="is-row contact-icons">
+            <i class="fas fa-phone"></i>
+            <p>
+              +92 334 4542424
+            </p>
+          </div>
+        </div>
         <div className ="is-col"id="homepage-google-map">
           <Map
            googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places"
